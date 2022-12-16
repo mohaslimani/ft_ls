@@ -1,11 +1,12 @@
-#ft_ls
-
-make #command to build the project
-./ft_ls -5 to see the usage
-
-usage: ./ft_ls [-alRruftGgS] [file ...]
-
-#this is a defaulf flag
+#ft_ls<br>
+<br>
+make #command to build the project<br>
+./ft_ls -5 to see the usage<br>
+<br>
+usage: ./ft_ls [-alRruftGgS] [file ...]<br>
+<br>
+this is a defaulf flag<br>
+```
 -1 (The numeric digit 'one'.)  Force output to be one entry per line.
               This is the default when output is not to a terminal.
 #those flags are required to test
@@ -33,3 +34,4 @@ usage: ./ft_ls [-alRruftGgS] [file ...]
 -S      Sort files by size
 
 #also we add option to manage files exist in /dev they have minor and major ->
+```
