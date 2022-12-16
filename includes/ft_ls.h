@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_ls.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ommadhi <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/26 18:08:28 by ommadhi           #+#    #+#             */
-/*   Updated: 2019/10/20 18:37:04 by ommadhi          ###   ########.fr       */
+/*   Updated: 2022/12/16 12:44:23 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,7 @@
 # include <grp.h>
 # include <pwd.h>
 # include <time.h>
+#include <sys/sysmacros.h>
 
 # define A 1
 # define L 2

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_args.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: ommadhi <marvin@42.fr>                     +#+  +:+       +#+        */
+/*   By: marvin <marvin@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/09/30 17:13:00 by ommadhi           #+#    #+#             */
-/*   Updated: 2019/10/20 18:52:34 by ommadhi          ###   ########.fr       */
+/*   Updated: 2022/12/16 12:44:45 by marvin           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -109,11 +109,9 @@ char				**tab_store(int size, char **av, int option)
 char				**tab_args(int ac, char **av, int option)
 {
 	char			**tab;
-	int				i;
 	int				j;
 	int				size;
 
-	i = 0;
 	j = 1;
 	while ((av[j] && av[j][0] == '-' && av[j][1] != '\0'))
 		j++;
